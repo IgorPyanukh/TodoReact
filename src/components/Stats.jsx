@@ -1,5 +1,7 @@
 import React from 'react';
 
+//Статистика
+
 function Stats(props) {
     const total = props.todos.length;
     const completed = props.todos.filter(todo => todo.completed).length;
